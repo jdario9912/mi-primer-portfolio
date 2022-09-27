@@ -6,9 +6,9 @@ import { v4 as uuidv4 } from 'uuid';
 
 const MeGustaSeccion = () => {
   return (
-    <div>
-      <h3 className='lowercase text-right text-3xl'>me gusta</h3>
-      <div className='flex flex-wrap gap-2 justify-end'>
+    <div className='mt-8'>
+      <h3 className='lowercase text-center text-3xl'>me gusta</h3>
+      <div className='flex flex-wrap gap-2 justify-center mt-2'>
         {
           meGustaActividades.map(({ nombre, actividad }) => 
             <MeGusta key={ uuidv4() } nombre={ nombre } actividad={ actividad } />

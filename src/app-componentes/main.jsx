@@ -4,7 +4,7 @@ import ExperienciaIt from './main/experiencia-it';
 import Home from './main/home';
 import Skills from './main/skills';
 import Sobre from './main/sobre';
-import Contacto from './main/contacto';
+// import Contacto from './main/contacto';
 
 const Main = () => {
   return (
@@ -15,7 +15,7 @@ const Main = () => {
         <Skills />
         <ExperienciaIt />
         <Formacion />
-        <Contacto />
+        {/* <Contacto /> */}
       </main>
     </>
   );

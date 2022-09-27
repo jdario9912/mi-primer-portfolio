@@ -19,8 +19,4 @@ export const navBotones = [
     texto: 'formación',
     section: '#formacion'
   },
-  {
-    texto: 'contacto',
-    section: '#contacto'
-  },
 ];

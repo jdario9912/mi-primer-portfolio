@@ -12,7 +12,7 @@ const Sobre = () => {
       <section className='fondo-section-oscuro section-standar flex flex-col items-center' id='sobre-mi'>
         <TituloSection titulo={ 'sobre mi' } icono={ BsFillExclamationCircleFill() } />
         <TextoSobreMi />
-        <div className='container flex w-full justify-between mt-8'>
+        <div className='mt-8'>
           <InfoPersonal />
           <MeGustaSeccion />
         </div>
