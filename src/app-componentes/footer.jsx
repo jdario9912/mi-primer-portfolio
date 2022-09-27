@@ -1,13 +1,11 @@
 import React from 'react';
-import NavBar from './componentes-generales/nav-bar';
 
 const Footer = () => {
   return (
     <>
-      <footer className='bg-gray-900 text-gray-200 p-4 flex justify-center gap-4'>
-        <NavBar />
-        <p>© Copyrigth <em>Joel</em> Dario Muñoz | 2022</p>
-        <a href='' className=''>repositorio</a>
+      <footer className='bg-gray-900 text-gray-200 p-4 flex flex-col justify-center gap-4'>
+        <p className='text-center'>© Copyrigth <em className='not-italic texto-color-distintivo'>Joel</em> Dario Muñoz | 2022</p>
+        <a href='https://github.com/jdario9912/mi-primer-portfolio' className='hidden'>repositorio</a>
       </footer>
     </>
   );
