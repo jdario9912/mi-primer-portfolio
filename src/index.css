@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --color-distintivo: #3dbfb3;
+  --fondo-section-oscuro: #21201f;
+  --fondo-section-claro: #303030;
+  --color-icono-section: #3733b7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.texto-color-distintivo{
+  color: var(--color-distintivo)
+}
+
+.border-color-distintivo{
+  border-color: var(--color-distintivo);
+}
+
+.home-img-fondo {
+  background: url(./imagenes/home/home-fondo.jpg) no-repeat center / cover ;
+  height: 650px;
+  width: 100%;
+}
+
+.home-fondo-traslucido{
+  background-color: #21201eb8;
+}
+
+.imagen-avatar{
+  background: url(./imagenes/home/home-avatar.jpg) no-repeat center / cover;
+}
+
+.fondo-section-oscuro{
+  background-color: var(--fondo-section-oscuro);
+}
+
+.fondo-section-claro{
+  background-color: var(--fondo-section-claro);
+}
+
+.color-icono-section{
+  color: var(--color-icono-section);
+}
+
+.section-standar{
+  color: #fff;
+  padding: 30px 4.375rem 80px 4.375rem;
+}
+
+.bg-color-distintivo{
+  background-color: var(--color-distintivo);
 }
