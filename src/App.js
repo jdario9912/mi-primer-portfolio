@@ -4,7 +4,7 @@ import Main from "./app-componentes/main";
 
 function App() {
   return (
-    <div className="">
+    <div className="mx-auto lg:w-11/12 xl:w-[940px]">
       <Header />
       <Main />
       <Footer />      
@@ -13,7 +13,3 @@ function App() {
 }
 
 export default App;
-
-/**
- * container mx-auto sm:w-3/4 sm:my-5 my-0 font-mono
- */

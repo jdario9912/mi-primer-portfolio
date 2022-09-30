@@ -7,7 +7,7 @@ import { experienciasIT } from './experiencia/modelos/experiencia-list';
 const ExperienciaIt = () => {
   return (
     <>
-      <section className='fondo-section-oscuro section-standar' id='experiencia'>
+      <section className='fondo-section-oscuro section-standar md:px-16' id='experiencia'>
         <TituloSection titulo={ 'experiencia it' } icono={ AiFillCode() } />
         <div className="flex gap-2 flex-wrap">
           {

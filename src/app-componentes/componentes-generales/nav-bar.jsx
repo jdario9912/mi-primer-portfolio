@@ -1,11 +1,16 @@
 import React from 'react';
 import NavList from './contenedores/nav-list';
 
-const NavBar = ({visible, ocultaMenu}) => {
+const NavBar = ({ ocultaMenu, estilos, estilosNavList, estilosLi, estilosLiOcultar }) => {
   return (
     <>
-      <nav className={ visible? 'absolute w-full mr-0 ml-auto' : 'hidden'}>
-        <NavList ocultaMenu={ ocultaMenu }/>
+      <nav className={ estilos }>
+        <NavList 
+          ocultaMenu={ ocultaMenu } 
+          estilosNavList={ estilosNavList }
+          estilosLi={ estilosLi } 
+          estilosLiOcultar={ estilosLiOcultar } 
+        />
       </nav>
     </>
   );

@@ -9,7 +9,7 @@ import TextoSobreMi from './sobre/comp-puros/texto-sobre-mi';
 const Sobre = () => {
   return (
     <>
-      <section className='fondo-section-oscuro section-standar flex flex-col items-center' id='sobre-mi'>
+      <section className='fondo-section-oscuro section-standar flex flex-col items-center md:px-16' id='sobre-mi'>
         <TituloSection titulo={ 'sobre mi' } icono={ BsFillExclamationCircleFill() } />
         <TextoSobreMi />
         <div className='mt-8'>

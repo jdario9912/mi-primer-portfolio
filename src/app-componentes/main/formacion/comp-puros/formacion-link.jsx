@@ -3,7 +3,7 @@ import React from 'react';
 const FormacionLink = ({ linkPlataforma, linkImagen, altImagen, canal, curso }) => {
   return (
     <>
-      <li className='fondo-section-oscuro p-3 w-full shadow-2xl hover:scale-y-105'>
+      <li className='fondo-section-oscuro p-3 w-full md:w-[48.5%] shadow-2xl hover:scale-y-105 hover:opacity-90'>
         <a href={ linkPlataforma } className='flex'>
           <img 
             src={ linkImagen }  

@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 const FormacionList = () => {
   return (
     <>
-      <ul className='flex flex-wrap gap-1'>
+      <ul className='flex flex-wrap gap-1 md:gap-2'>
         {
           mediosList.map(({ linkImagen, altImagen, canal, curso }) => {
             return (

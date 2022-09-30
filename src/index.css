@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 1024px) { 
+  body{
+    background-color: #0000ffbf;; 
+    padding-top: 1rem; padding-bottom: 1rem
+  }
+}
+
 :root{
   --color-distintivo: #3dbfb3;
   --fondo-section-oscuro: #21201f;
