@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+
 @media (min-width: 1024px) { 
   body{
     background-color: #0000ffbf;; 

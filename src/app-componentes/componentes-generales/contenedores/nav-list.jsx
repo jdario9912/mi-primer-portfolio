@@ -4,18 +4,18 @@ import NavLink from '../puros/nav-link';
 import { v4 as uuidv4 } from 'uuid';
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-const NavList = ({ ocultaMenu, estilosNavList, estilosLi, estilosLiOcultar }) => {
+const NavList = ({ ocultarMenu, estilosNavList, estilosLi, estilosLiOcultar }) => {
   return (
     <>
-      <ul className={ estilosNavList }>      
+      <ul className={ estilosNavList } onClick={ ocultarMenu }>      
         {
           navBotones.map(({texto, section}) => 
-            <li key={uuidv4()} className={ estilosLi } onClick={ ocultaMenu }>
+            <li key={uuidv4()} className={ estilosLi } onClick={ ocultarMenu }>
               <NavLink texto={ texto } section={ section } />
             </li>
           )
         }
-        <li className={ estilosLiOcultar } onClick={ ocultaMenu }>
+        <li className={ estilosLiOcultar }>
           ocultar menu
           <AiOutlineArrowRight />
         </li>
