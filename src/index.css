@@ -10,8 +10,8 @@ html, body {
 
 @media (min-width: 1024px) { 
   body{
-    background-color: #0000ffbf;; 
-    padding-top: 1rem; padding-bottom: 1rem
+    background-color: #0000ffbf;
+    padding-top: 1rem; padding-bottom: 1rem;
   }
 }
 
