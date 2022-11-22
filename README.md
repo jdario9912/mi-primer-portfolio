@@ -1,4 +1,5 @@
 # mi-primer-portfolio
-Portfolio desarrollado con React: página web estática hecha con componentes funcionales.
+<p>Portfolio desarrollado con React: página web estática hecha con componentes funcionales.</p>
+<p>El objetivo es la práctica del uso de React.</p>
 
-El objetivo es la práctica del uso de React.
+<img src='' alt='Print de pantalla de portfolio' />
